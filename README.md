@@ -1,4 +1,4 @@
-# **Plugin Name** Plugin
+# **Discourse Custom Default Sidebars** Plugin
 
 **Plugin Summary**
 

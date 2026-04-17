@@ -1,4 +1,4 @@
-TODO_plugin_name:
-  plugin_name_enabled:
+discourse_custom_default_sidebars:
+  discourse_custom_default_sidebars_enabled:
     default: false
     client: true

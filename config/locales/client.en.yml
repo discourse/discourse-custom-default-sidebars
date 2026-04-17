@@ -3,7 +3,7 @@ en:
     admin:
       site_settings:
         categories:
-          TODO_plugin_name: "Plugin Name"
+          discourse_custom_default_sidebars: "Discourse Custom Default Sidebars"
   js:
-    discourse_plugin_name:
+    discourse_custom_default_sidebars:
       placeholder: placeholder

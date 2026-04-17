@@ -5,4 +5,6 @@ DiscourseCustomDefaultSidebars::Engine.routes.draw do
   # define routes here
 end
 
-Discourse::Application.routes.draw { mount ::DiscourseCustomDefaultSidebars::Engine, at: "discourse-custom-default-sidebars" }
+Discourse::Application.routes.draw do
+  mount ::DiscourseCustomDefaultSidebars::Engine, at: "discourse-custom-default-sidebars"
+end

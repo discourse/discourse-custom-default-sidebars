@@ -2,3 +2,21 @@ discourse_custom_default_sidebars:
   discourse_custom_default_sidebars_enabled:
     default: false
     client: true
+  apply_rules_to_anonymous_users:
+    default: true
+    client: true
+  default_navigation_menu_categories_rules:
+    client: true
+    default: []
+    type: objects
+    schema:
+      name: rule
+      identifier: locale
+      properties:
+        locale:
+          type: string
+          required: true
+          validations:
+            max_length: 20
+        category_ids:
+          type: categories
